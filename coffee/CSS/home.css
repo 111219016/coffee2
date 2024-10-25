@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+.header-title{
+    font-family: "cwTeXFangSong", serif;
+}
 footer{
     background-color: #04172A;
-    ;
 }
 .fb{
     /* fin:fb icon */
