@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <head>
     <title>
-        眠貓咖啡店
+        眠貓咖啡屋
     </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../CSS/normalize.css">
     <link rel="stylesheet" href="../CSS/home.css">
+
 </head>
 
 <body>
     <!-- Logo & 店名 & first picture-->
     <header>
-        
-        <a herf="#" class="logo">
+        <div class="logontitle">
+            <a herf="#" class="logo">
+                <img src="../images/logo 3.png" alt="logo3" width="136px" height="132px">
+            </a>
+            <h1 class="header-title">眠貓咖啡屋</h1>
+            <!-- <img src="../images/home_first.jpg" alt="home_first" width="" height=""> -->
+        </div>
+        <!-- 導覽列 -->
+        <nav>
             
-        </a>
-        <h1 class="header-title">眠貓咖啡店</h1>
-        <img src="../images/home_first.png" alt="home_first">
+                <ul type="none" class="nav-ul">
+                    <li class="nav-li"><a herf="#" class="nav-text">Home</a></li>
+                    <li class="nav-li"><a herf="" class="nav-text">Menu</a></li>
+                    <li class="nav-li"><a herf="#" class="nav-text">Reservation</a></li>
+                    <li class="nav-li"><a herf="#" class="nav-text">Info</a></li>
+                </ul>
+                       
+        </nav>
     </header>
-    <!-- 導覽列 -->
-    <nav>
-        <h2>
-            <a herf="#" class="home">Home</a>
-            <a herf="#" class="menu">Menu</a>
-            <a herf="#" class="reservation">Reservation</a>
-            <a herf="#" class="info">Info</a>
-        </h2>           
-    </nav>
+    
     
     <!-- About -->
     <section>
@@ -34,7 +39,7 @@
         <h1>About</h1>
         <!-- stars & lines -->
         <!-- picture -->
-        <img class="about" src="../images/home_about.png" alt="about">
+           <!-- <img src="../images/home_about.png " alt="about" width="" height=""> -->
         <!-- 重疊漂浮框 -->
             <!-- picture info -->
              <h3>Picture Info</h3>
@@ -51,7 +56,7 @@
         <h1>Specials</h1>
         <!-- stars & lines -->
         <!-- picture -->
-        <img class="specials" src="../images/home_specials.png" alt="specials">
+           <!-- <img src="../images/home_specials.jpg" alt="specials" width="" height=""> -->
         <!-- 重疊漂浮框 -->
             <!-- picture info -->
             <h3>Picture Info</h3>
@@ -68,7 +73,7 @@
         <h1>Reservation</h1>
         <!-- stars & lines -->
         <!-- background picture -->
-        <img class="reservation" src="../images/home_reservation.png" alt="reservation">
+           <!-- <img src="../images/home_reservation.png" alt="reservation" width="" height=""> -->
         <!-- 等待光臨 -->
         <h3>我們誠摯的等待您的光臨</h3>
         <!-- button -->
@@ -83,29 +88,35 @@
         <!-- stars & lines -->
         <!-- 左邊文字 -->
             <!-- 字&線 -->
-            <h3>PHONE & TEL</h3>
-            <hr>
-            <h3>0912-345-678</h3>
-            <br>
-            <h3>LOCATION</h3>
-            <hr>
-            <h3>台北市大安區和平東路二段134號</h3>
-            <br>
-            <h3>HOURS</h3>
-            <hr>
-            <h3>上午10:00至下午9:30，周五公休</h3>
+            <div class="contactngoogle">
+                <div class="contact-text">
+                    <h3>PHONE & TEL</h3>
+                    <hr>
+                    <h3>0912-345-678</h3>
+                    <br>
+                    <h3>LOCATION</h3>
+                    <hr>
+                    <h3>台北市大安區和平東路二段134號</h3>
+                    <br>
+                    <h3>HOURS</h3>
+                    <hr>
+                    <h3>上午10:00至下午9:30，周五公休</h3>
+                </div>
             <!-- google map -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2784017805598!2d121.5446374!3d25.0246244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1729801252841!5m2!1szh-TW!2stw"
-         width="600" height="450" style="border:0;" allowfullscreen="" 
-         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2784017805598!2d121.5446374!3d25.0246244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1729801252841!5m2!1szh-TW!2stw"
+                width="600" height="450" style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
+            </div>
     </section>
 
     <footer>
         <h2>copyright © 2024</h2>
         <!-- icons -->
-        <img class="fb" src="../images/facebook.png" alt="fb" width="70px" height="70px">
-        <img class="ig" src="../images/instagram_2.png" alt="ig" width="70px" height="70px">
-        <img class="mail" src="../images/mail(2)_3.png" alt="mail" width="70px" height="55px">
+        <div class="icons">
+            <img class="fb" src="../images/facebook.png" alt="fb" width="70px" height="70px">
+            <img class="ig" src="../images/instagram_2.png" alt="ig" width="70px" height="70px">
+            <img class="mail" src="../images/mail(2)_3.png" alt="mail" width="70px" height="55px">
+        </div>
     </footer>
      
 </body>

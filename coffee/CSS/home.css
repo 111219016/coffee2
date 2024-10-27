@@ -1,33 +1,73 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
-
-.header-title{
-    font-family: "cwTeXFangSong", serif;
+body{
+    margin:0;
+    justify-content: center;
 }
+header{
+    background-color: #04172A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logontitle{
+    display: flex;
+    align-items: center;
+}
+.header-title{
+    margin:0;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+nav{
+    color: #ffffff;
+
+
+}
+.nav-ul{
+    justify-content: space-around;
+} 
+.nav-li{ 
+    display: inline; /*對物件本身 */
+    margin-right: 50px;
+} 
+.nav-li:hover{
+    color:#6ee7ff;
+}
+.nav-text{
+    text-decoration: none;
+}
+
+
+.contactngoogle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-text{
+    line-height: 8px;
+}
+
 footer{
     background-color: #04172A;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
+
 .fb{
     /* fin:fb icon */
-    background-color: #ffffff;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    background-color: #ffffff;    
+    border-radius: 12px;
 }
 .ig{
     /* fin:ig icon */
     background-color: #04172A;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-radius: 12px;
 } 
 .mail{
      /* fin: icon  */
     background-color: #04172A;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-radius: 12px;
 } 
-
