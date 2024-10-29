@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+body{
+    margin:0;
+    
+}
 header{
     background-color: #04172A ;
     display: flex;
@@ -15,6 +20,8 @@ header{
     margin:0;
     margin-left: 20px;
     color: #ffffff;
+    font-family: "cwTeXFangSong", serif;
+    font-weight: 400;
 }
 
 /* nav{
@@ -38,3 +45,36 @@ header{
 .nav-text{
     text-decoration: none;
 }
+.first{
+    /* width: 1920px; */
+    height: 915px;
+    background-image: url("../images/home_first-v7.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+footer{
+    background-color: #04172A;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb{
+    /* fin:fb icon */
+    background-color: #ffffff;    
+    border-radius: 12px;
+}
+.ig{
+    /* fin:ig icon */
+    background-color: #04172A;
+    border-radius: 12px;
+} 
+.mail{
+     /* fin: icon  */
+    background-color: #04172A;
+    border-radius: 12px;
+} 
