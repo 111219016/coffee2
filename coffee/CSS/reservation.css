@@ -1,0 +1,40 @@
+header{
+    background-color: #04172A ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 165px;
+    
+}
+.logontitle{
+    display: flex;
+    align-items: center;
+}
+.header-title{
+    margin:0;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+/* nav{
+    color: #ffffff;
+
+
+} */
+.nav-ul{
+    justify-content: space-around;
+} 
+.nav-li{ 
+    display: inline; /*對物件本身 */
+    margin-right: 50px;
+} 
+.nav-text{
+    color: #ffffff;
+}
+.nav-text:hover{
+    color:#6ee7ff;
+}
+.nav-text{
+    text-decoration: none;
+}

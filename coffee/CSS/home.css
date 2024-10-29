@@ -3,11 +3,28 @@ body{
     margin:0;
     justify-content: center;
 }
+
+.first{
+    /* width: 1920px; */
+    height: 915px;
+    background-image: url("../images/home_first-v7.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* 以下是黃色東東的設定 */
+    display: flex;
+    align-self: end;
+    width:100%;
+    height: auto;
+}
 header{
-    background-color: #04172A;
+    background-color: #04172A ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 165px;
     
 }
 .logontitle{
@@ -20,11 +37,11 @@ header{
     color: #ffffff;
 }
 
-nav{
+/* nav{
     color: #ffffff;
 
 
-}
+} */
 .nav-ul{
     justify-content: space-around;
 } 
@@ -32,22 +49,89 @@ nav{
     display: inline; /*對物件本身 */
     margin-right: 50px;
 } 
-.nav-li:hover{
+.nav-text{
+    color: #ffffff;
+}
+.nav-text:hover{
     color:#6ee7ff;
 }
 .nav-text{
     text-decoration: none;
 }
+/* .sth-yellow{
+    display: flex;
 
+    align-items: center;
 
+    
+} */
+.about-specials{
+    background-image: url("../images/milkyway_about_specials.jpg");
+    
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.about{
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-title{
+    margin-top: 216px;;
+}
+.specials{
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.specials-title{
+    margin-top:216px;
+}
+.reservation{
+    color:#ffffff;
+    height: 610px;
+    background-image: url("../images/home_reservation.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.reservation-title{
+    margin-top:123px;
+}
+.map{
+    color:#ffffff;
+    background-color: #022961;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.map-title{
+    margin:0;
+    padding-top: 55px;
+}
 .contactngoogle{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:50px
 }
 .contact-text{
     line-height: 8px;
+    margin-right: 200px;
 }
+/* .googlemap{
+    margin-left: 10px;
+} */
 
 footer{
     background-color: #04172A;

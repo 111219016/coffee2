@@ -11,67 +11,75 @@
 
 <body>
     <!-- Logo & 店名 & first picture-->
+    
     <header>
         <div class="logontitle">
-            <a herf="#" class="logo">
+            <a href="#" class="logo">
                 <img src="../images/logo 3.png" alt="logo3" width="136px" height="132px">
             </a>
             <h1 class="header-title">眠貓咖啡屋</h1>
             <!-- <img src="../images/home_first.jpg" alt="home_first" width="" height=""> -->
         </div>
         <!-- 導覽列 -->
-        <nav>
-            
-                <ul type="none" class="nav-ul">
-                    <li class="nav-li"><a herf="#" class="nav-text">Home</a></li>
-                    <li class="nav-li"><a herf="" class="nav-text">Menu</a></li>
-                    <li class="nav-li"><a herf="#" class="nav-text">Reservation</a></li>
-                    <li class="nav-li"><a herf="#" class="nav-text">Info</a></li>
-                </ul>
-                       
+        <nav class="nav">           
+            <ul type="none" class="nav-ul">                
+                <li class="nav-li"><a href="home.html" class="nav-text">Home</a></li>
+                <li class="nav-li"><a href="menu.html" class="nav-text">Menu</a></li>
+                <li class="nav-li"><a href="reservation.html" class="nav-text">Reservation</a></li>
+                <li class="nav-li"><a href="#" class="nav-text">Info</a></li>            
+            </ul>                    
         </nav>
+        
     </header>
-    
-    
-    <!-- About -->
-    <section>
-        <!-- title -->
-        <h1>About</h1>
-        <!-- stars & lines -->
-        <!-- picture -->
-           <!-- <img src="../images/home_about.png " alt="about" width="" height=""> -->
-        <!-- 重疊漂浮框 -->
-            <!-- picture info -->
-             <h3>Picture Info</h3>
-                <!-- intro -->
-                <h4>Whether you're looking for an intimate dinner, a casual lunch, or a weekend brunch.</h4>
-                <!-- button -->
-                    <!-- 文字:More -->
-                    <h3>More</h3>
-    </section>
 
-    <!-- Specials -->
-    <section>
-        <!-- title -->
-        <h1>Specials</h1>
-        <!-- stars & lines -->
-        <!-- picture -->
-           <!-- <img src="../images/home_specials.jpg" alt="specials" width="" height=""> -->
-        <!-- 重疊漂浮框 -->
-            <!-- picture info -->
-            <h3>Picture Info</h3>
-                <!-- intro -->
-                 <h4>Whether you're looking for an intimate dinner, a casual lunch, or a weekend brunch.</h4>
-                <!-- button -->
-                    <!-- 文字:More -->
-                    <h3>More</h3>
+    <!-- 第一張圖~黃色東東 -->
+    <section class="first">
+        <img src="../images/sth_yellow.svg" alt="sth_yellow" class="sth-yellow">
     </section>
+    <!-- about~specials是同張背景圖 -->
+    <div class="about-specials">
+        <!-- About -->
+        <div class="about">
+            <!-- title -->
+            <h1 class="about-title">About</h1>
+            <!-- stars & lines -->
+            <img src="../images/star_white.svg" alt="star_white" width="" height="">
+            <!-- picture -->
+            <!-- <img src="../images/home_about.png " alt="about" width="" height=""> -->
+            <!-- 重疊漂浮框 -->
+                <!-- picture info -->
+                <h3>Picture Info</h3>
+                    <!-- intro -->
+                    <h4>Whether you're looking for an intimate dinner, a casual lunch, or a weekend brunch.</h4>
+                    <!-- button -->
+                        <!-- 文字:More -->
+                        <h3>More</h3>
+        </div>
 
+        <!-- Specials -->
+        <div class="specials">
+            <!-- title -->
+            <h1 class="specials-title">Specials</h1>
+            <!-- stars & lines -->
+            <img src="../images/star_white.svg" alt="star_white" width="" height="">
+            <!-- picture -->
+            
+            <!-- 重疊漂浮框 -->
+                <!-- picture info -->
+                <h3>Picture Info</h3>
+                    <!-- intro -->
+                    <h4>Whether you're looking for an intimate dinner, a casual lunch, or a weekend brunch.</h4>
+                    <!-- button -->
+                        <!-- 文字:More -->
+                        <h3>More</h3>
+        </div>
+    </div>
     <!-- Reservation -->
-    <section>
+    <div class="reservation">
         <!-- title -->
-        <h1>Reservation</h1>
+        <h1 class="reservation-title">Reservation</h1>
         <!-- stars & lines -->
+        <img src="../images/star_white.svg" alt="star_white" width="" height="">
         <!-- background picture -->
            <!-- <img src="../images/home_reservation.png" alt="reservation" width="" height=""> -->
         <!-- 等待光臨 -->
@@ -79,35 +87,37 @@
         <!-- button -->
             <!-- 我要訂位 -->
             <h2>我要訂位</h2>
-    </section>
+    </div>
 
     <!-- Map -->
-    <section>
+    <div class="map">
         <!-- title -->
-        <h1>Map</h1>
+        <h1 class="map-title">Map</h1>
         <!-- stars & lines -->
-        <!-- 左邊文字 -->
-            <!-- 字&線 -->
-            <div class="contactngoogle">
-                <div class="contact-text">
-                    <h3>PHONE & TEL</h3>
-                    <hr>
-                    <h3>0912-345-678</h3>
-                    <br>
-                    <h3>LOCATION</h3>
-                    <hr>
-                    <h3>台北市大安區和平東路二段134號</h3>
-                    <br>
-                    <h3>HOURS</h3>
-                    <hr>
-                    <h3>上午10:00至下午9:30，周五公休</h3>
-                </div>
+        <img src="../images/star_white.svg" alt="star_white" width="" height="">
+        <div class="contactngoogle">
+            <!-- 左邊文字 -->
+                <!-- 字&線 -->               
+                    <div class="contact-text">
+                        <h3>PHONE & TEL</h3>
+                        <hr>
+                        <h3>0912-345-678</h3>
+                        <br>
+                        <h3>LOCATION</h3>
+                        <hr>
+                        <h3>台北市大安區和平東路二段134號</h3>
+                        <br>
+                        <h3>HOURS</h3>
+                        <hr>
+                        <h3>上午10:00至下午9:30，周五公休</h3>
+                    </div>
             <!-- google map -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2784017805598!2d121.5446374!3d25.0246244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1729801252841!5m2!1szh-TW!2stw"
-                width="600" height="450" style="border:0;" allowfullscreen="" 
+                width="400" height="300" style="border:0;" allowfullscreen="" 
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
-            </div>
-    </section>
+        </div>
+            
+    </div>
 
     <footer>
         <h2>copyright © 2024</h2>
