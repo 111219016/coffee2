@@ -5,6 +5,9 @@
 *author 余盈蓁 陳星璇
 *licensed
 */
+html{
+    background-color: #052063ff;
+}
 body{
     margin:0;
     font-family: '微軟正黑體',arial;/* 新增字體設定 前面微軟正黑體為主要字體，後面為替補字體 */
@@ -56,7 +59,12 @@ h3,h4,h5,h6 {
     display: flex;
     align-self: end;
     width:100%;
+    border-radius: 20px;
 }
+/* .sun-logo{
+    
+    
+} */
 /* header{
     background-color: #04172A ;
     display: flex;
@@ -111,7 +119,10 @@ h3,h4,h5,h6 {
 
 /* 主要按鈕 淺色more底用 */
 .btn-setting-more{
-    display: inline-block;
+    /*  */
+    display: flex;
+    justify-self: end;
+    /* display: inline-block; */   
     vertical-align: top;
     /* 文字設定 */
     text-decoration:none;
@@ -124,6 +135,7 @@ h3,h4,h5,h6 {
     /* 其他設定 */
     transition: all 0.3s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 設置陰影 */
+    
 }
 .btn-setting-more.btn-more{
     background-color: #F2E7C9;
@@ -243,7 +255,7 @@ h3,h4,h5,h6 {
 }
 /* 重疊漂浮框-1 */
 .about-img{
-    margin-bottom: -12%;
+    margin-bottom: -15%;
 }
 .float-block-1{
     position: relative;
@@ -291,7 +303,10 @@ h3,h4,h5,h6 {
     color: #494646;
     border-radius: 8px;
 }
+.float-block-2 div h4{
+    margin-bottom: 20px;
 
+}
 /* 下面是輪播 */
 ul.slides{
     position:relative;
