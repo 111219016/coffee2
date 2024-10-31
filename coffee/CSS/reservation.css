@@ -5,6 +5,9 @@
 *author 余盈蓁 陳星璇
 *licensed
 */
+html{
+    background-color: #052063ff;
+}
 body{
     margin:0;
     font-family: '微軟正黑體',arial;/* 新增字體設定 前面微軟正黑體為主要字體，後面為替補字體 */
