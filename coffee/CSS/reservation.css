@@ -12,6 +12,7 @@ body{
 /* 字體設定 */
 h1,h2{
     font-family: "cwTeXFangSong", serif;
+    font-weight: normal;
 }
 h3,h4,h5,h6 {
     font-family: "微軟正黑體", serif;
@@ -38,13 +39,17 @@ h3,h4,h5,h6 {
 /* 首圖 */
 .first{
     /* width: 1920px; */
-    height: 915px;
+    height: 455px;
     background-image: url("../images/home_first-v4.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    /* title */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
 }
 
 
@@ -124,8 +129,38 @@ h3,h4,h5,h6 {
     transform: translateY(2px);
 }
 
+/* ------------------------- *\ 
+    body 主內容
+\* ------------------------- */
+.main{
+    background-color: #faf7ed;
+    color:#443226;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main form{
+    margin:30px;
+    margin-bottom: 100px;
+}
 
-
+.form-items{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.form-items h3{
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.form-control{
+    box-sizing: border-box;
+    align-self: center;
+    width:400px;
+    height:42px;
+    padding: 0%;
+    background-color: #faf7ed;
+}
 
 
 /* ------------------------- *\ 

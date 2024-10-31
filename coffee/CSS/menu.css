@@ -12,7 +12,9 @@ body{
 /* 字體設定 */
 h1,h2{
     font-family: "cwTeXFangSong", serif;
+    font-weight: normal; /*本頁取消粗體 */
 }
+
 h3,h4,h5,h6 {
     font-family: "微軟正黑體", serif;
     font-weight: normal; /* 取消粗體 */
@@ -44,6 +46,7 @@ h3,h4,h5,h6 {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    /* title */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,11 +130,7 @@ h3,h4,h5,h6 {
 /* ------------------------- *\ 
     body 主內容
 \* ------------------------- */
-/* .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+
 .dessert{
     background-color: #faf7ed;
     color:#443226;
@@ -155,7 +154,7 @@ h3,h4,h5,h6 {
 .products img{
     border-radius: 12%;
     margin:60px;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 .product-intro{
     display: flex;
@@ -167,15 +166,23 @@ h3,h4,h5,h6 {
     width:320px;
     margin: 60px;
     margin-top: 0%;
+    margin-bottom: 100px;
     text-align: center;
 }
-.product-intro div name{
-    margin: 0%;
+.product-intro div h3{
+    margin-top: 0%;
+    margin-bottom: 30px;
 }
 .product-intro div h6{
     margin:0;
     margin-top: 20px;
-    line-height: 27px;
+    line-height: 35px;
+}
+.product-intro div h5{
+    margin:0;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: left;
 }
 /* ------------------------- *\ 
     footer 頁尾
