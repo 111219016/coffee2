@@ -11,7 +11,9 @@ html{
 body{
     margin:0;
     font-family: '微軟正黑體',arial;/* 新增字體設定 前面微軟正黑體為主要字體，後面為替補字體 */
+    
 }
+
 /* 字體設定 */
 h1,h2{
     font-family: "cwTeXFangSong", serif;
@@ -37,7 +39,6 @@ h3,h4,h5,h6 {
     height: 100%;
 }
 
-
 /* 首圖 */
 .first{
     /* width: 1920px; */
@@ -51,15 +52,46 @@ h3,h4,h5,h6 {
     display: flex;
     align-self: end;
 
+    
     width:100%;
     /* height: auto; */
     /* width:min-content; */
+}
+@media screen and (max-width: 768px) {
+	.first {
+		background-image:none;
+        justify-content: center;
+        width: auto;
+	}
+}
+.title-small{
+    display: flex;
+    
+    align-items: center;
+    width: 53px;
+    height: 310px;
+    color:#fff;
+    line-height: 62.45px;
+    
+}
+@media screen and (min-width: 768px) {
+	.title-small {
+		display: none;
+	}
+}
+.title-text-small{
+    font-weight: 400;
 }
 .sth-yellow{
     display: flex;
     align-self: end;
     width:100%;
     border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+	.sth-yellow {
+		display: none;
+	}
 }
 /* .sun-logo{
     
@@ -171,16 +203,33 @@ h3,h4,h5,h6 {
     align-items: center;/* 居中對齊 */
 }
 
+@media screen and (max-width: 768px) {
+
+	.navbar {
+        
+		height: 54px;
+        background-color: #FAF7ED;
+	}
+    
+}
 /* 左側logo與title處 */
 
 .logontitle{/* logo & title */
     display: flex;
     align-items: center;
 }
+
 .logo img{/* logo圖 */
     width: 80px;
     height: 80px;
     margin: 20px 30px 20px 60px;
+}
+@media screen and (max-width: 768px) {
+
+	.logo img {
+        display: none;
+	}
+    
 }
 .header-title{
     margin:0;
@@ -189,7 +238,13 @@ h3,h4,h5,h6 {
     font-family: "cwTeXFangSong", serif;
     font-weight: 400;
 }
+@media screen and (max-width: 768px) {
 
+	.header-title {
+		display: none;
+	}
+
+}
 /* 右邊的導覽按鈕區 */
 
 .nav{/* 右邊的導覽按鈕框架 */
@@ -202,6 +257,11 @@ h3,h4,h5,h6 {
 
     padding-right: 50px;
 } 
+@media screen and (max-width: 768px) {
+	.nav-hide {
+        display: none;
+	}   
+}
 .nav-item{ /* 每個導覽按鈕的設定 */
     /* 字設定 */
     font-family: "cwTeXFangSong", serif;
@@ -243,6 +303,7 @@ h3,h4,h5,h6 {
 .about-img{
     margin-top: 30px;
     border-radius: 18px;
+    max-width: 100%;
 }
 .about{
     color:#ffffff;
@@ -267,6 +328,11 @@ h3,h4,h5,h6 {
     background-color: #ffffff;
     color: #494646;
     border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+	.float-block-1 {
+        display: none;
+	}   
 }
 /* .float-block>:first-child{
     
@@ -303,6 +369,11 @@ h3,h4,h5,h6 {
     color: #494646;
     border-radius: 8px;
 }
+@media screen and (max-width: 768px) {
+	.float-block-2 {
+        display: none;
+	}   
+}
 .float-block-2 div h4{
     margin-bottom: 20px;
 
@@ -318,6 +389,7 @@ ul.slides{
     overflow:hidden;
     margin-bottom: -5%;
 }
+
 li.slide{
     margin:0;
     padding:0;
@@ -435,12 +507,20 @@ input[type="radio"]{
     align-items: center;
     margin:50px
 }
+@media screen and (max-width: 768px) {
+	.contactngoogle {
+		display: block;
+	}
+}
+
 .contact-text{
     line-height: 8px;
     margin-right: 200px;
+    display: block;
 }
+
 /* .googlemap{
-    margin-left: 10px;
+    
 } */
 
 
@@ -457,13 +537,47 @@ footer{
     align-items: center;/* 居中對齊 */
     padding:20px 20px 20px 60px;
 }
+@media screen and (max-width: 768px) {
+	footer {
+        flex-direction: column;
+	}
+}
+@media screen and (max-width: 768px) {
+	footer p{
+        justify-content: center;
+	}
+}
 
+@media screen and (min-width: 768px) {
+	.footer-small {
+		display: none;
+	}
+}
+.footer-small-ul{
+    list-style: none;
+    display: block;
+    
+}
+@media screen and (min-width: 768px) {
+	.footer-small-ul {
+		display: none;
+	}
+}
+.footer-small-item{
+    display: flex;
+    justify-content: center;
+    
+}
 .icons{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+@media screen and (max-width: 768px) {
+	.icons {
+		justify-content:space-evenly;
+	}
+}
 .icon-item{
     align-items: center;
     display: inline; /*對物件本身 */
