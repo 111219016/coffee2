@@ -78,7 +78,11 @@ $colorWindowGrey: #534d4d */
     cursor: pointer;
     z-index: 0;
 }
-
+@media screen and (max-width: 768px) {
+	.scene {
+		height: 140vh;
+	}
+}
 .allstars {
     width: 100%;
     height: 100%;
@@ -473,6 +477,11 @@ input:checked + .scene .dayimg {
     /* 字體設定 */
     font-family: "cwTeXFangSong", serif;
 }
+/* @media screen and (max-width: 768px) {
+	.first-L-title {
+		
+	}
+} */
 /* 首圖Logo 圖片 */
 .container-logo{
     
@@ -498,12 +507,15 @@ input:checked + .scene .dayimg {
     vertical-align: top;
 }
 .small-container__logo img{
-    position: absolute;
-    width: 105px;
-    height: auto;
-    vertical-align: top;
-    /* failed:顯示在中間(flex不能用) */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 105px;
+  height: auto;
+  vertical-align: top;
+  left: 0%;
 }
+
 @media screen and (min-width: 768px) {
 	.small-container__logo {
 		display: none;
@@ -536,7 +548,9 @@ input:checked + .scene .dayimg {
     font-weight: 400;
     box-sizing: border-box;
     margin: 0%;
-    width: 50px;
+    width: 44px;
+    
+    /*  */
 }
 @media screen and (min-width: 768px) {
 	.small-headline__title {
@@ -840,13 +854,39 @@ input:checked + .scene .dayimg {
     .about-img{
         margin-top: 30px;
         border-radius: 18px;
+        margin-bottom: -15%; /*  for 漂浮框-1 */
     }
     @media screen and (max-width:768px){
       .about-img{
         width:80%;
         height:auto;
+        margin-bottom: 0%;
     }
     }
+    /* 重疊漂浮框-1 */
+
+.float-block-1{
+  position: relative;
+  left:20%;    
+  box-sizing: border-box;
+  width:33%;
+  height: auto;
+  padding: 45px;
+  background-color: #ffffff;
+  color: #494646;
+  border-radius: 8px;
+}
+@media screen and (max-width:768px){
+  .float-block-1{
+    display: none;
+}
+}
+.float-block-1 h3{
+  margin-top: 0%;
+}
+.float-block-1 h6{
+  margin-bottom: 0%;
+}
     .about{
         color:#ffffff;
         display: flex;
@@ -890,6 +930,7 @@ input:checked + .scene .dayimg {
     align-items: center;
     position: relative; /* 讓遮罩層和文字層的定位生效 */
 }
+
 .reservation > *:not(.mask-dark) {
     position: relative;
     z-index: 2; /* 讓文字和按鈕位於遮罩層上方 */
@@ -978,9 +1019,12 @@ footer{
 @media screen and (max-width: 768px) {
 	footer p{
         justify-content: center;
+        font-family: serif;
 	}
 }
-
+.footer-small {
+  font-weight: 400;
+}
 @media screen and (min-width: 768px) {
 	.footer-small {
 		display: none;
@@ -1005,6 +1049,7 @@ footer{
   color: #fff;
   padding: 20px 16px;
   text-decoration: none;
+  font-family: serif;
 }
 
 
@@ -1013,7 +1058,11 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-
+@media screen and (max-width: 768px) {
+	.icons {
+		margin-bottom: 30px;
+	}
+}
 .icon-item{
     align-items: center;
     display: inline; /*對物件本身 */
