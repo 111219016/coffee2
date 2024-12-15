@@ -54,16 +54,11 @@
 
     <!-- navbar 導覽列-->
     <header>
-        <!-- 導覽列 -->
-        <nav class="navbar">
-            <div class="logontitle">
-                <a href="../HTML/home.html" class="logo">
-                    <img src="../images/logo 3.png" alt="logo3">
-                </a>
-                <h1 class="header-title">眠貓咖啡屋</h1>
-                <!-- <img src="../images/home_first.jpg" alt="home_first" width="" height=""> -->
-            </div>
-            <!-- 右邊 -->
+        <!-- 新版導覽列 -->
+        <div class="navbar">
+            <a href="#" class="logo">
+                <img src="../images/logo 1.png" alt="logo main">
+            </a>
             <ul class="nav">
                 <li class="nav-item">
                     <a href="home.html" class="nav-text">Home</a>
@@ -77,7 +72,7 @@
                 <li class="nav-item"><a href="info.html" class="nav-text">Info</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
     <!-- end navbar-->
     <section class="first">
@@ -89,7 +84,7 @@
     <div class="dessert">
         <img src="../images/drop_blue.svg" class="drops">
         <h2>Dessert</h2>
-        <img src="../images/star_brown.svg">            
+        <img src="../images/star_brown.svg" class="star_white" alt="star_white"> 
         <div class="products">
             <div class="product-intro">
                 <img src="../images/menu_lemon-v2.jpg" width="360px" height="360px">
@@ -122,7 +117,7 @@
     <div class="coffee">
         <img src="../images/drop_yellow.svg" class="drops">
         <h2>Coffee</h2>
-        <img src="../images/star_white.svg">         
+        <img src="../images/star_white.svg" class="star_white" alt="star_white">    
         <div class="products">
             <div class="product-intro">
                 <img src="../images/menu_latte-v2.jpg" width="360px" height="360px">
@@ -157,8 +152,22 @@
     
 
     <!-- footer -->
+    <!-- footer -->
     <footer>
-        <p>copyright © 2024</p>
+        <h2 class="footer-small">眠貓咖啡屋</h2>
+
+        <p id="copyright">copyright © 2024</p>
+        
+        <ul class="footer-small footer-small-ul">
+            <li class="footer-small-item">
+                <a href="home.html" class="small-nav-text">Home</a>
+            </li>
+            <li class="footer-small-item">
+                <a href="reservation.html" class="small-nav-text">Reservation</a>
+            </li>
+            <li class="footer-small-item"><a href="info.html" class="small-nav-text">Info</a>
+            </li>
+        </ul>
         <!-- icons -->
         <div class="icons">
             <a href="https://www.facebook.com/">
@@ -168,7 +177,7 @@
             <img class="icon-item" src="../images/ins.svg" alt="ig" width="56px" height="56px">
             </a>
             <a href="mailto:example@example.com">
-            <img class="icon-item" src="../images/mail.svg" alt="mail" width="56px" height="56px">
+            <img class="icon-item mail" src="../images/mail.svg" alt="mail" width="56px" height="56px">
             </a>
         </div>
     </footer>
