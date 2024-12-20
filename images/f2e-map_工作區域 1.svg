@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 449 277">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f4f4;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 12px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: MicrosoftJhengHeiBold, 'Microsoft JhengHei';
+      }
+
+      .cls-2, .cls-5 {
+        fill: #78909c;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-5, .cls-16 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-3 {
+        fill: #18a773;
+      }
+
+      .cls-7 {
+        fill: #022961;
+      }
+
+      .cls-8 {
+        fill: #b31412;
+      }
+
+      .cls-9, .cls-4 {
+        fill: #e94335;
+      }
+
+      .cls-10 {
+        fill: #92999e;
+      }
+
+      .cls-17 {
+        font-family: MicrosoftJhengHeiRegular, 'Microsoft JhengHei';
+        font-size: 10px;
+        letter-spacing: .2em;
+      }
+
+      .cls-17, .cls-14 {
+        fill: #fbfafa;
+      }
+
+      .cls-4 {
+        font-size: 14px;
+      }
+
+      .cls-11 {
+        fill: #1782af;
+      }
+
+      .cls-12 {
+        fill: #fbfcfc;
+      }
+
+      .cls-13 {
+        fill: #4cb44b;
+      }
+
+      .cls-15 {
+        fill: #1a45a0;
+      }
+
+      .cls-16 {
+        fill: #fcfcfc;
+      }
+    </style>
+  </defs>
+  <g id="_圖層_4" data-name="圖層 4">
+    <rect class="cls-7" width="449" height="277"/>
+  </g>
+  <g id="_圖層_2" data-name="圖層 2">
+    <polygon class="cls-15" points="449 106.11 449 122.16 401.26 119.19 367.24 117.07 366.54 117.03 143.44 105.27 131.07 104.62 135.73 89.01 143.68 89.41 341.23 99.5 367.38 101.1 401.43 103.19 449 106.11"/>
+    <path class="cls-15" d="m208.29,277H0v-24.39c20.26.08,111.12,2.43,111.12,2.43,0,0,5.16.37,12.71.94,5.01.37,11.06.83,17.36,1.34,16.29,1.3,34.21,2.86,39.77,3.86,10.97,1.95,27.04,15.55,27.04,15.55l.29.27Z"/>
+    <polygon class="cls-15" points="145.01 0 143.68 89.41 143.44 105.27 141.19 257.32 140.89 277 123.64 277 123.83 255.98 125.23 103.72 125.38 87.29 126.17 0 145.01 0"/>
+    <polygon class="cls-15" points="135.73 89.01 131.07 104.62 125.23 103.72 0 84.38 0 66.58 125.38 87.29 135.73 89.01"/>
+    <polygon class="cls-15" points="402.48 0 401.43 105.43 401.26 121.77 399.72 277 365.86 277 367.24 119.61 367.38 103.29 368.29 0 402.48 0"/>
+  </g>
+  <g id="_圖層_3" data-name="圖層 3">
+    <g>
+      <g>
+        <path class="cls-9" d="m205.5,87.37c0,2.87-.97,5.52-2.6,7.63-.2.26-.4.51-.62.75-.15.14-.3.31-.47.49-2.26,2.24-5.38,3.63-8.81,3.63s-6.55-1.39-8.81-3.63c-.17-.18-.32-.35-.47-.49-.22-.24-.42-.49-.62-.75-1.63-2.11-2.6-4.76-2.6-7.63,0-6.9,5.6-12.5,12.5-12.5s12.5,5.6,12.5,12.5Z"/>
+        <path class="cls-9" d="m202.9,95c-.2.26-.4.51-.62.75-.15.14-.3.31-.47.49-2.45,2.64-7.92,9.09-8.81,14.71-.89-5.62-6.36-12.07-8.81-14.71-.17-.18-.32-.35-.47-.49-.22-.24-.42-.49-.62-.75h19.8Z"/>
+      </g>
+      <circle class="cls-8" cx="193" cy="88" r="5"/>
+    </g>
+    <g>
+      <ellipse class="cls-10" cx="70.58" cy="96.37" rx="3.35" ry="2.37"/>
+      <ellipse class="cls-16" cx="70.58" cy="95.5" rx="3.53" ry="2.5"/>
+      <g>
+        <circle class="cls-16" cx="70.58" cy="82.67" r="12.5"/>
+        <circle class="cls-5" cx="70.58" cy="82.67" r="10"/>
+        <circle class="cls-12" cx="70.58" cy="82.67" r="4"/>
+      </g>
+    </g>
+    <g>
+      <ellipse class="cls-10" cx="409.58" cy="235.37" rx="3.35" ry="2.37"/>
+      <ellipse class="cls-16" cx="409.58" cy="234.5" rx="3.53" ry="2.5"/>
+      <g>
+        <circle class="cls-16" cx="409.58" cy="221.67" r="12.5"/>
+        <circle class="cls-5" cx="409.58" cy="221.67" r="10"/>
+        <circle class="cls-12" cx="409.58" cy="221.67" r="4"/>
+      </g>
+    </g>
+    <g>
+      <ellipse class="cls-10" cx="226.58" cy="269.37" rx="3.35" ry="2.37"/>
+      <ellipse class="cls-16" cx="226.58" cy="268.5" rx="3.53" ry="2.5"/>
+      <circle class="cls-16" cx="226.58" cy="255.67" r="12.5"/>
+      <circle class="cls-6" cx="226.58" cy="255.67" r="10"/>
+      <circle class="cls-12" cx="226.58" cy="255.67" r="4"/>
+    </g>
+    <g>
+      <rect class="cls-14" x="120.53" y="17.8" width="31.47" height="31.47" rx="15.73" ry="15.73"/>
+      <path class="cls-13" d="m124.38,34.07s2.78-1.33,7.52-4.57,9.18-1,10.42-.73c-4.29,1.65-5.38,2.78-7.6,4.29s-6.02,3.29-10.34,1.01Z"/>
+      <path class="cls-11" d="m130.21,38.21s2.78-1.33,7.52-4.57,9.18-1,10.42-.73c-4.29,1.65-5.38,2.78-7.6,4.29s-6.02,3.29-10.34,1.01Z"/>
+    </g>
+    <text class="cls-4" transform="translate(198.49 66.71)"><tspan x="0" y="0">國立臺北教育大學</tspan><tspan x="16.08" y="16.8">(眠貓咖啡屋)</tspan></text>
+    <text class="cls-2" transform="translate(47.81 65.53)"><tspan x="0" y="0">科技大樓</tspan></text>
+    <text class="cls-1" transform="translate(63.81 35.53)"><tspan x="0" y="0">科技大樓</tspan></text>
+    <text class="cls-3" transform="translate(187.94 236.12)"><tspan x="0" y="0">臺北和平籃球館</tspan></text>
+    <text class="cls-2" transform="translate(317.71 216.43)"><tspan x="0" y="0">國泰健康管理</tspan><tspan x="-4.21" y="15">(敦南健檢中心)</tspan></text>
+    <text class="cls-17" transform="translate(129.25 114.74) rotate(90)"><tspan x="0" y="0">復興南路二段</tspan></text>
+    <text class="cls-17" transform="translate(219.68 105.94) rotate(2.8)"><tspan x="0" y="0">和平東路二段</tspan></text>
+  </g>
+</svg>
