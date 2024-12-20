@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+/* @import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css); */
+
+
 /* 
 *page name 眠貓咖啡屋 首頁
 *copyright 2024
@@ -910,6 +914,15 @@ input:checked + .scene .dayimg {
     .specials-title{
         margin-top:216px;
     }
+        /* ------------------------- *\ 
+            ad
+        \* ------------------------- */
+.carousel{
+  width: 900px;
+  overflow: hidden;
+}
+
+
 
 
 /* ------------------------- *\ 
@@ -960,7 +973,7 @@ input:checked + .scene .dayimg {
 }
 .contactngoogle{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     margin:50px
 }
@@ -972,7 +985,7 @@ input:checked + .scene .dayimg {
 }
 .contact-text{
     line-height: 8px;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 @media screen and (max-width: 768px){
   .contact-text{
