@@ -318,7 +318,30 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2784017805598!2d121.5446374!3d25.0246244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1729801252841!5m2!1szh-TW!2stw"
                 width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade" id="googlemap" class="aos"></iframe>
-            
+            <!-- google map -->
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+            <script>
+                async function initMap() {
+                    try {
+                        // 動態載入樣式 JSON
+                        const response = await fetch('../json/mapStyle.json');
+                        const mapStyle = await response.json();
+
+                        // 初始化地圖
+                        const map = new google.maps.Map(document.getElementById('map'), {
+                            center: { lat: 25.0246, lng: 121.5446 },
+                            zoom: 14,
+                            styles: mapStyle // 套用動態載入的樣式
+                        });
+                    } catch (error) {
+                        console.error('地圖樣式載入失敗:', error);
+                    }
+                }
+
+                // 初始化地圖
+                window.onload = initMap;
+            </script>
             
         </div>
     </div>
