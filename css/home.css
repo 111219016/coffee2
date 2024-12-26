@@ -1195,8 +1195,20 @@ input:checked + .scene .dayimg {
   width: 900px;
   overflow: hidden;
   border-radius: 2rem;
-}
-/* 重疊漂浮框-2 
+  margin-bottom: calc(-50vw * 20 / 100); /*  for 漂浮框-2 */
+} 
+
+/*.slick-arrow{
+   width: 3rem;
+	height: 3rem;
+  background-color: transparent;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #FFF;
+	border-bottom: 25px solid transparent;
+  border-left: 0;
+} */
+ 
+/* 重疊漂浮框-2  */
 .float-block-2{
   position: relative;
   right:22%;    
@@ -1219,7 +1231,7 @@ input:checked + .scene .dayimg {
 .float-block-2 div h4{
   margin-bottom: 20px;
 
-}*/
+}
 
 
 /* ------------------------- *\ 
@@ -1228,7 +1240,7 @@ input:checked + .scene .dayimg {
 .reservation {
   color: #ffffff;
   min-height: (100vw* 600 / 1920);
-  background-image: url("../images/new_home_reservation.png");
+  background-image: url("/images/new_home_reservation.png");
   background-attachment: fixed;
   background-position: center;
   /* background-size: 100%; */
